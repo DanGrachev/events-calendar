@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+}
+
+.h100 {
+    height: calc(100vh - 64px);
+}
+
+.h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 26px;
+}
+
+.event {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #000;
+    margin-bottom: 10px;
+
+}
+
+.event button {
+    align-self: flex-end;
+}
